@@ -1,0 +1,52 @@
+behaviors:
+  Attacker:
+    trainer_type: ppo
+    max_steps: 3000000
+    time_horizon: 64
+    summary_freq: 250000
+
+    network_settings:
+      num_layers: 2
+      hidden_units: 128
+      normalize: true
+
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 1.0e-4
+
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+
+    self_play:
+      save_steps: 100000
+      swap_steps: 50000
+      team_change: 500000
+
+  Goalie:
+    trainer_type: ppo
+    max_steps: 3000000
+    time_horizon: 64
+    summary_freq: 250000
+
+    network_settings:
+      num_layers: 2
+      hidden_units: 128
+      normalize: true
+
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 1.0e-4
+
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+
+    self_play:
+      save_steps: 100000
+      swap_steps: 50000
+      team_change: 500000

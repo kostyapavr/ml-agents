@@ -1,0 +1,125 @@
+{
+    "Goalie": {
+        "checkpoints": [
+            {
+                "steps": 1499947,
+                "file_path": "results\\footbal_run1\\Goalie\\Goalie-1499947.onnx",
+                "reward": -3.109065294265747,
+                "creation_time": 1780273414.1519783,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Goalie\\Goalie-1499947.pt"
+                ]
+            },
+            {
+                "steps": 1999975,
+                "file_path": "results\\footbal_run1\\Goalie\\Goalie-1999975.onnx",
+                "reward": 4.942667421073683,
+                "creation_time": 1780276645.6397724,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Goalie\\Goalie-1999975.pt"
+                ]
+            },
+            {
+                "steps": 2499976,
+                "file_path": "results\\footbal_run1\\Goalie\\Goalie-2499976.onnx",
+                "reward": 11.252263573499826,
+                "creation_time": 1780279865.1950574,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Goalie\\Goalie-2499976.pt"
+                ]
+            },
+            {
+                "steps": 2999977,
+                "file_path": "results\\footbal_run1\\Goalie\\Goalie-2999977.onnx",
+                "reward": 1.2653833130995433,
+                "creation_time": 1780283072.4262042,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Goalie\\Goalie-2999977.pt"
+                ]
+            },
+            {
+                "steps": 3000041,
+                "file_path": "results\\footbal_run1\\Goalie\\Goalie-3000041.onnx",
+                "reward": 1.2653833130995433,
+                "creation_time": 1780283072.719997,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Goalie\\Goalie-3000041.pt"
+                ]
+            }
+        ],
+        "elo": 1541.4394827766941,
+        "final_checkpoint": {
+            "steps": 3000041,
+            "file_path": "results\\footbal_run1\\Goalie.onnx",
+            "reward": 1.2653833130995433,
+            "creation_time": 1780283072.719997,
+            "auxillary_file_paths": [
+                "results\\footbal_run1\\Goalie\\Goalie-3000041.pt"
+            ]
+        }
+    },
+    "Attacker": {
+        "checkpoints": [
+            {
+                "steps": 1499947,
+                "file_path": "results\\footbal_run1\\Attacker\\Attacker-1499947.onnx",
+                "reward": 15.374969244003296,
+                "creation_time": 1780273414.3982232,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Attacker\\Attacker-1499947.pt"
+                ]
+            },
+            {
+                "steps": 1999975,
+                "file_path": "results\\footbal_run1\\Attacker\\Attacker-1999975.onnx",
+                "reward": 12.21563931386317,
+                "creation_time": 1780276645.8817327,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Attacker\\Attacker-1999975.pt"
+                ]
+            },
+            {
+                "steps": 2499976,
+                "file_path": "results\\footbal_run1\\Attacker\\Attacker-2499976.onnx",
+                "reward": 21.980837341684563,
+                "creation_time": 1780279865.439501,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Attacker\\Attacker-2499976.pt"
+                ]
+            },
+            {
+                "steps": 2999977,
+                "file_path": "results\\footbal_run1\\Attacker\\Attacker-2999977.onnx",
+                "reward": -1.0130728483200073,
+                "creation_time": 1780283072.6645842,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Attacker\\Attacker-2999977.pt"
+                ]
+            },
+            {
+                "steps": 3000041,
+                "file_path": "results\\footbal_run1\\Attacker\\Attacker-3000041.onnx",
+                "reward": -1.0130728483200073,
+                "creation_time": 1780283072.7935724,
+                "auxillary_file_paths": [
+                    "results\\footbal_run1\\Attacker\\Attacker-3000041.pt"
+                ]
+            }
+        ],
+        "elo": 1665.1974930085792,
+        "final_checkpoint": {
+            "steps": 3000041,
+            "file_path": "results\\footbal_run1\\Attacker.onnx",
+            "reward": -1.0130728483200073,
+            "creation_time": 1780283072.7935724,
+            "auxillary_file_paths": [
+                "results\\footbal_run1\\Attacker\\Attacker-3000041.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
